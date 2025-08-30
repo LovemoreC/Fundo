@@ -1,0 +1,13 @@
+# Node
+node_modules/
+.next/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Env
+.env
+
+# Django
+server/db.sqlite3
