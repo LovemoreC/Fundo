@@ -1,8 +1,5 @@
 export const metadata = {
   title: 'Fundo',
-  icons: {
-    icon: '/favicon.svg',
-  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
