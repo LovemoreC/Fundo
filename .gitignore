@@ -8,6 +8,10 @@ __pycache__/
 
 # Env
 .env
+server/.env
+server/.env.local
+web/.env
+web/.env.local
 
 # Django
 server/db.sqlite3
