@@ -8,6 +8,8 @@ services:
       - ./server:/app
     env_file:
       - server/.env
+    environment:
+      DJANGO_SETTINGS_MODULE: server.settings.dev
     ports:
       - "8000:8000"
 
