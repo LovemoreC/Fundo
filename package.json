@@ -1,4 +1,12 @@
 {
   "private": true,
-  "workspaces": ["apps/*", "packages/*", "infra/*"]
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "infra/*"
+  ],
+  "dependencies": {
+    "@prisma/client": "^6.15.0",
+    "prisma": "^6.15.0"
+  }
 }
